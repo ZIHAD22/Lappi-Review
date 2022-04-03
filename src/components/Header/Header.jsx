@@ -3,7 +3,7 @@ import CustomLink from "../CustomLink/CustomLink";
 
 const Header = () => {
   return (
-    <div className="flex justify-around items-center bg-slate-900 text-white py-3">
+    <nav className="flex justify-around items-center bg-slate-900 text-white py-3">
       <div>
         <h1 className="text-3xl">Review Website</h1>
       </div>
@@ -21,7 +21,7 @@ const Header = () => {
           About
         </CustomLink>
       </div>
-    </div>
+    </nav>
   );
 };
 
