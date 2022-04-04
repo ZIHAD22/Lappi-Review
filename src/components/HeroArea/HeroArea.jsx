@@ -44,6 +44,12 @@ const HeroArea = () => {
             <ReviewItem review={review} />
           ))}
         </div>
+        <button
+          onClick={handleReview}
+          className="bg-[#3E4CF3] text-white flex justify-center w-1/4 mx-auto hover:bg-slate-900 duration-500 px-14 py-3 rounded-xl mt-14"
+        >
+          <a href="#review">See All Review</a>
+        </button>
       </div>
     </div>
   );

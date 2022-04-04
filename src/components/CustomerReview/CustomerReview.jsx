@@ -5,7 +5,10 @@ import ReviewItem from "../ReviewItem/ReviewItem";
 const CustomerReview = ({ short }) => {
   const [reviews, setReviews] = useReview();
   return (
-    <div className="mb-9 min-h-[705px] flex flex-col justify-center">
+    <div
+      id="review"
+      className="mb-9 min-h-[705px] flex flex-col justify-center"
+    >
       <h1 className="text-center my-7 text-5xl font-serif">
         Customer Say About Products
         <span className="text-orange-500">({reviews.length})</span>
