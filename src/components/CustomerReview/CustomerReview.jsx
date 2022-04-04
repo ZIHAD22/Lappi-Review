@@ -10,9 +10,9 @@ const CustomerReview = ({ short }) => {
         Customer Say About Products{" "}
         <span className="text-orange-500">({reviews.length})</span>
       </h1>
-      <div className="grid grid-cols-3 gap-7 drop-shadow-2xl  p-6 min-h-[705px]">
+      <div className="grid grid-cols-3 gap-7 p-6 min-h-[705px]">
         {reviews.map((review) => (
-          <ReviewItem key={review.id} reviews={review} />
+          <ReviewItem key={review.id} review={review} />
         ))}
       </div>
     </div>

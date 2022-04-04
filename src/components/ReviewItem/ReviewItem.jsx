@@ -1,10 +1,10 @@
 import React from "react";
 
 const ReviewItem = (props) => {
-  const { name, description, rating, img } = props.reviews;
+  const { name, description, rating, img } = props.review;
 
   return (
-    <div className="flex flex-col justify-center items-center bg-white rounded-2xl">
+    <div className="flex flex-col justify-center items-center drop-shadow-2xl bg-white rounded-2xl">
       <div className="w-[95px] h-[95px] rounded-[50%] border-8 overflow-hidden my-4">
         <img src={img} alt="" />
       </div>
