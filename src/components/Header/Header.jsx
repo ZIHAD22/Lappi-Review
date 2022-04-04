@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <nav className="flex justify-around items-center bg-slate-900 text-white py-3">
       <div>
-        <h1 className="text-3xl">Review Website</h1>
+        <CustomLink to="/" className="text-white">
+          <h1 className="text-3xl">Lappi Review</h1>
+        </CustomLink>
       </div>
       <div className="text-[18px] flex">
         <CustomLink className="m-2" to="/home">
