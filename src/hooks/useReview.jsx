@@ -1,14 +1,25 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
-const useReview = () => {
-  const [review, setReview] = useState([]);
+const useReview = (short) => {
+  const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
-    axios.get("reviewData.json").then((res) => setReview(res.data));
+    axios.get("reviewData.json").then((res) => {
+      if (short) {
+        let shortRev = [];
+        const RevLength = Math.ceil(res.data.length / 2);
+        for (let i = 0; i < RevLength; i++) {
+          shortRev.push(res.data[i]);
+        }
+        setReviews(shortRev);
+      } else {
+        setReviews(res.data);
+      }
+    });
   }, []);
 
-  return [review, setReview];
+  return [reviews, setReviews];
 };
 
 export default useReview;

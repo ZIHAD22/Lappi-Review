@@ -1,44 +1,50 @@
 [
     {
         "id" : "1",
-        "name" : "mattsmith24",
-        "description" : "I was a bit skeptical switching from PC to Mac after all of these years but I couldn't be happier. This MacBook Air is so sleek and smooth. Though getting used to a new OS may take a little time, it was well worth spending a little extra money to get such a solid computer. For others who may be a little frustrated with the change from PC to Mac, take the time to go through Mac tutorials. It's well worth the change and I would do it all over again. I always considered Macbook's to be over priced but having used one now, I can say you are getting what your paying for, trust me. It's amazing how this laptop never freezes up like my PC's kept doing on me. Love this MacBook Air!",
-        "rating" : "5"
+        "name" : "Tomtom",
+        "description" : "This is the first time I will be using an Apple computer. And I am amazed at the beautiful and sleek look of the product. I also love the Touch Bar. Definitely a good buy.",
+        "rating" : "5",
+        "img" : "https://img.freepik.com/free-vector/men-avatar-character-cheerful-happy-people-flat-vector-illustration-male-portraits-group-team-adorable-guy-trendy_275421-745.jpg?w=740"
 
     },
     {
         "id" : "2",
         "name" : "mattsmith24",
         "description" : "I was a bit skeptical switching from PC to Mac after all of these years but I couldn't be happier. This MacBook Air is so sleek and smooth. Though getting used to a new OS may take a little time, it was well worth spending a little extra money to get such a solid computer. For others who may be a little frustrated with the change from PC to Mac, take the time to go through Mac tutorials. It's well worth the change and I would do it all over again. I always considered Macbook's to be over priced but having used one now, I can say you are getting what your paying for, trust me. It's amazing how this laptop never freezes up like my PC's kept doing on me. Love this MacBook Air!",
-        "rating" : "5"
+        "rating" : "5",
+        "img" : "https://img.freepik.com/free-vector/men-avatar-character-cheerful-happy-people-flat-vector-illustration-male-portraits-group-team-adorable-guy-trendy_275421-745.jpg?w=740"
 
     },
     {
         "id" : "3",
-        "name" : "mattsmith24",
-        "description" : "I was a bit skeptical switching from PC to Mac after all of these years but I couldn't be happier. This MacBook Air is so sleek and smooth. Though getting used to a new OS may take a little time, it was well worth spending a little extra money to get such a solid computer. For others who may be a little frustrated with the change from PC to Mac, take the time to go through Mac tutorials. It's well worth the change and I would do it all over again. I always considered Macbook's to be over priced but having used one now, I can say you are getting what your paying for, trust me. It's amazing how this laptop never freezes up like my PC's kept doing on me. Love this MacBook Air!",
-        "rating" : "5"
+        "name" : "Stephen",
+        "description" : "I bought this MacBook Pro because I am working on my MBA and I wanted a new MacBook Pro with great battery life and excellent quality fit and finish. I appreciate the fine things in life, and along with my other Apple products I was not disappointed. ",
+        "rating" : "5",
+        "img" : "https://img.freepik.com/free-vector/men-avatar-character-cheerful-happy-people-flat-vector-illustration-male-portraits-group-team-adorable-guy-trendy_275421-745.jpg?w=740"
 
     },
     {
         "id" : "4",
-        "name" : "mattsmith24",
-        "description" : "I was a bit skeptical switching from PC to Mac after all of these years but I couldn't be happier. This MacBook Air is so sleek and smooth. Though getting used to a new OS may take a little time, it was well worth spending a little extra money to get such a solid computer. For others who may be a little frustrated with the change from PC to Mac, take the time to go through Mac tutorials. It's well worth the change and I would do it all over again. I always considered Macbook's to be over priced but having used one now, I can say you are getting what your paying for, trust me. It's amazing how this laptop never freezes up like my PC's kept doing on me. Love this MacBook Air!",
-        "rating" : "5"
+        "name" : "imreallythatbarber",
+        "description" : "well as long as you get like the external hard drives this is a fast Mac Book Pro ever I love itThis review is from Apple - MacBook Pro - 13 Display with Touch Bar - Intel Core i5 - 8GB Memory - 256GB SSD - Silver",
+        "rating" : "5",
+        "img" : "https://img.freepik.com/free-vector/men-avatar-character-cheerful-happy-people-flat-vector-illustration-male-portraits-group-team-adorable-guy-trendy_275421-745.jpg?w=740"
 
     },
     {
         "id" : "5",
-        "name" : "mattsmith24",
-        "description" : "I was a bit skeptical switching from PC to Mac after all of these years but I couldn't be happier. This MacBook Air is so sleek and smooth. Though getting used to a new OS may take a little time, it was well worth spending a little extra money to get such a solid computer. For others who may be a little frustrated with the change from PC to Mac, take the time to go through Mac tutorials. It's well worth the change and I would do it all over again. I always considered Macbook's to be over priced but having used one now, I can say you are getting what your paying for, trust me. It's amazing how this laptop never freezes up like my PC's kept doing on me. Love this MacBook Air!",
-        "rating" : "5"
+        "name" : "Pookias",
+        "description" : "I've used the laptop for a week and I am blown away. Performance, screen, battery life, and build quality are all exceptional. If you have never owned a MacBook and you're looking to jump in, now is the perfect time at $1,199 or $1,399 with the discount. This is the best value MacBook for the performance you're getting in a long time. ",
+        "rating" : "5",
+        "img" : "https://img.freepik.com/free-vector/men-avatar-character-cheerful-happy-people-flat-vector-illustration-male-portraits-group-team-adorable-guy-trendy_275421-745.jpg?w=740"
 
     },
     {
         "id" : "6",
-        "name" : "mattsmith24",
-        "description" : "I was a bit skeptical switching from PC to Mac after all of these years but I couldn't be happier. This MacBook Air is so sleek and smooth. Though getting used to a new OS may take a little time, it was well worth spending a little extra money to get such a solid computer. For others who may be a little frustrated with the change from PC to Mac, take the time to go through Mac tutorials. It's well worth the change and I would do it all over again. I always considered Macbook's to be over priced but having used one now, I can say you are getting what your paying for, trust me. It's amazing how this laptop never freezes up like my PC's kept doing on me. Love this MacBook Air!",
-        "rating" : "5"
+        "name" : "abhi",
+        "description" : "I bought the new 2019 macbook pro with touch bar. I have a windows 10 laptop with much higher specs but this mac never feels slow and weak in terms of performance as compared to it. Its a solid performer for everyday usage. you will never be disappointed in playing back any type of media, little video editing and some games and office work. solid machine.",
+        "rating" : "5",
+        "img" : "https://img.freepik.com/free-vector/men-avatar-character-cheerful-happy-people-flat-vector-illustration-male-portraits-group-team-adorable-guy-trendy_275421-745.jpg?w=740"
 
     }
 ]
