@@ -21,10 +21,11 @@ const HeroArea = () => {
         <div className="order-none my-auto m-4">
           <h1 className="text-6xl tracking-wide">Best laptop of The Year</h1>
           <p className=" tracking-wide text-[18px] pt-14">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
-            laudantium rem ab ut velit consequatur voluptates labore natus
-            beatae assumenda voluptatibus explicabo eligendi unde expedita ex,
-            non obcaecati quaerat sed vero aut!
+            The most powerful MacBook Pro ever is here. With the blazing-fast M1
+            Pro or M1 Max chip — the first Apple silicon designed for pros — you
+            get groundbreaking performance and amazing battery life. Add to that
+            a stunning Liquid Retina XDR display, the best camera and audio ever
+            in a Mac notebook, and all the ports you need.
           </p>
           <button
             onClick={handleReview}
@@ -34,7 +35,7 @@ const HeroArea = () => {
           </button>
         </div>
       </div>
-      <div className="min-h-[735px] flex flex-col justify-center">
+      <div className="h-screen flex flex-col justify-center">
         <h1 className="text-center my-7 text-5xl font-serif">
           Customer Say About Products{" "}
           <span className="text-orange-500">({reviews.length})</span>
