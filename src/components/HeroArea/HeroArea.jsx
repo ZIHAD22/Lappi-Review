@@ -3,9 +3,15 @@ import laptopLogo from "../../img/laptop.png";
 import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 import useReview from "../../hooks/useReview";
 import ReviewItem from "../ReviewItem/ReviewItem";
+import { useNavigate } from "react-router-dom";
 
 const HeroArea = () => {
   const [reviews, setReviews] = useReview(true);
+  let navigate = useNavigate();
+
+  const handleReview = () => {
+    navigate("/review");
+  };
   return (
     <div>
       <div className="grid grid-cols-2 bg-cyan-100 pt-5 pb-5 h-[705px]">
@@ -20,8 +26,11 @@ const HeroArea = () => {
             beatae assumenda voluptatibus explicabo eligendi unde expedita ex,
             non obcaecati quaerat sed vero aut!
           </p>
-          <button className="bg-slate-900 text-white flex justify-center hover:bg-[#3E4CF3] duration-500 px-14 py-3 rounded-xl mt-14">
-            Bye Now <ArrowNarrowRightIcon className="w-6 ml-2 h-6" />
+          <button
+            onClick={handleReview}
+            className="bg-slate-900 text-white flex justify-center hover:bg-[#3E4CF3] duration-500 px-14 py-3 rounded-xl mt-14"
+          >
+            See Review <ArrowNarrowRightIcon className="w-6 ml-2 h-6" />
           </button>
         </div>
       </div>
