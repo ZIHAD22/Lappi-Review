@@ -6,6 +6,8 @@
 
 Live site
 
+*[live site] ([https://lappi-review.netlify.app/](https://lappi-review.netlify.app/))
+
 ### To Build This Site Technology Requirements
 
 - JavaScript
