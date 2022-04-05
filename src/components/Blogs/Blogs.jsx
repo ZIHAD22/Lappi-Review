@@ -15,20 +15,14 @@ const blogsData = [
     img: "https://www.loginradius.com/blog/static/157af7ff069ab273224b4718433d9790/03979/title-image.png",
   },
   {
-    id: 1,
-    title: "What is Context Api",
-    description: `একটি সাধারণ রিঅ্যাক্ট অ্যাপ্লিকেশনে data উপর থেকে নিচের দিকে
-      প্রবাহিত হয়। তার জন্য আমাদের কে manually data parent component থেকে
-      child component এর কাছে পাঠাতে হয়। যা অনেক কষ্টকর। আর এই জাইগাই
-      আমাদের Context Api সাহায্য করে। Context Api manually data parent
-      component থেকে child component এর কাছে props হিসেবে না পাঠিয়ে
-      component tree ব্যবহার করে data সরাসরি ওই component এর কাছে সরবরাহ
-      করার একটি উপায়`,
+    id: 2,
+    title: "What is Semantic Tag",
+    description: `Semantic HTML elements গুলি হল যেগুলি মানুষের এবং মেশিন-পাঠযোগ্য উপায়ে তাদের অর্থ স্পষ্টভাবে বর্ণনা করে <header>, <footer> এবং <article>-এর মতো উপাদানগুলিকে semantic tag বলা হয় কারণ তারা তারা তাদের উদ্দেশ্য এবং তাদের ভিতরে থাকা বিষয়বস্তুর ধরণকে সঠিকভাবে বর্ণনা করে। এই রকম আরও অনেক semantic tag আসে। কিন্তু তাদের সবার (Semantic Tag) উদ্দেশ্য আমারা ঐ tag এর নাম দেখেই বুঝতে পারি। এবং এই টাকে Semantic Tag বলে `,
     publisher: "MD.ZIHAD",
-    img: "https://www.loginradius.com/blog/static/157af7ff069ab273224b4718433d9790/03979/title-image.png",
+    img: "https://www.encodedna.com/2014/08/html5-semantics.png",
   },
   {
-    id: 1,
+    id: 3,
     title: "What is Context Api",
     description: `একটি সাধারণ রিঅ্যাক্ট অ্যাপ্লিকেশনে data উপর থেকে নিচের দিকে
       প্রবাহিত হয়। তার জন্য আমাদের কে manually data parent component থেকে

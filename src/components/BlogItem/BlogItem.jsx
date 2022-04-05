@@ -3,8 +3,8 @@ import { UserIcon } from "@heroicons/react/solid";
 const BlogItem = ({ blog: { title, description, publisher, img } }) => {
   return (
     <div className="grid sm:grid-cols-1 lg:grid-cols-3 w-5/6 mx-auto shadow-2xl mt-6 mb-9">
-      <div>
-        <img src={img} alt="" className="w-full" />
+      <div className="">
+        <img src={img} alt="" className="w-full h-full" />
       </div>
       <div className="col-span-2 px-7">
         <div className="text-center">
