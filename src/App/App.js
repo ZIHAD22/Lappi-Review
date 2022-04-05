@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
+import Blogs from '../components/Blogs/Blogs'
 import CustomerReview from '../components/CustomerReview/CustomerReview'
 import DashBoard from '../components/DashBoard/DashBoard'
 import Header from '../components/Header/Header'
@@ -15,6 +16,7 @@ function App() {
         <Route path="/home" element={<HeroArea />}></Route>
         <Route path="/review" element={<CustomerReview />}></Route>
         <Route path="/dashboard" element={<DashBoard />}></Route>
+        <Route path="/blogs" element={<Blogs />}></Route>
         <Route path="*" element={<NotFound />}></Route>
       </Routes>
     </div>

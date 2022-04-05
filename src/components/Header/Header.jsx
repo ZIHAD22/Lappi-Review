@@ -19,8 +19,8 @@ const Header = () => {
         <CustomLink className="m-2" to="/dashboard">
           DashBoard
         </CustomLink>
-        <CustomLink className="m-2" to="/about">
-          About
+        <CustomLink className="m-2" to="/blogs">
+          Blogs
         </CustomLink>
       </div>
     </nav>
