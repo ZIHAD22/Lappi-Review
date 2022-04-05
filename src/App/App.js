@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import CustomerReview from '../components/CustomerReview/CustomerReview'
+import DashBoard from '../components/DashBoard/DashBoard'
 import Header from '../components/Header/Header'
 import HeroArea from '../components/HeroArea/HeroArea'
 import './App.css'
@@ -11,10 +12,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HeroArea />}></Route>
         <Route path="/home" element={<HeroArea />}></Route>
-        <Route
-          path="/review"
-          element={<CustomerReview short={false} />}
-        ></Route>
+        <Route path="/review" element={<CustomerReview />}></Route>
+        <Route path="/dashboard" element={<DashBoard />}></Route>
       </Routes>
     </div>
   )
