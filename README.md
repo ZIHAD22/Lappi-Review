@@ -1,12 +1,6 @@
-# readme file
-
 # The Best Laptop Review Site in BD
 
-[](https://lappi-review.netlify.app/)
-
-Live site
-
-*[live site] ([https://lappi-review.netlify.app/](https://lappi-review.netlify.app/))
+# [Live site](https://lappi-review.netlify.app/)
 
 ### To Build This Site Technology Requirements
 
