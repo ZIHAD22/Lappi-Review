@@ -42,7 +42,7 @@ const HeroArea = () => {
         </h1>
         <div className="grid sm:grid lg:grid-cols-3 gap-7 my-6 mx-6">
           {reviews.map((review) => (
-            <ReviewItem review={review} />
+            <ReviewItem key={review.id} review={review} />
           ))}
         </div>
         <button

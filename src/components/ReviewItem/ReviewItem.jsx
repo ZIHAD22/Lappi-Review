@@ -5,7 +5,7 @@ const ReviewItem = (props) => {
   const { name, description, rating, img } = props.review;
   const ratingStar = {
     size: 30,
-    value: rating,
+    value: parseInt(rating),
     isHalf: true,
     edit: false,
   };
@@ -16,9 +16,9 @@ const ReviewItem = (props) => {
       </div>
       <div className="text-center">
         <h1 className="text-2xl mb-2">{name}</h1>
-        <p className="mb-2 flex justify-center">
+        <div className="mb-2 flex justify-center">
           <ReactStars {...ratingStar} />
-        </p>
+        </div>
         <p className="text-[18px] px-7 pb-4" title={description}>
           {description.length > 90
             ? description.slice(0, 250) + " ..."
