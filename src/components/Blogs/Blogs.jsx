@@ -23,16 +23,12 @@ const blogsData = [
   },
   {
     id: 3,
-    title: "What is Context Api",
-    description: `একটি সাধারণ রিঅ্যাক্ট অ্যাপ্লিকেশনে data উপর থেকে নিচের দিকে
-      প্রবাহিত হয়। তার জন্য আমাদের কে manually data parent component থেকে
-      child component এর কাছে পাঠাতে হয়। যা অনেক কষ্টকর। আর এই জাইগাই
-      আমাদের Context Api সাহায্য করে। Context Api manually data parent
-      component থেকে child component এর কাছে props হিসেবে না পাঠিয়ে
-      component tree ব্যবহার করে data সরাসরি ওই component এর কাছে সরবরাহ
-      করার একটি উপায়`,
+    title:
+      "What is Deferance Beetwing Inline or Block and Inline-Block Elements",
+    description: `Block Element গুলো তাদের পর্যাপ্ততা নির্বিশেষে পুরো জাইগার নেয়। এবং তারা সর্বদা একটি নতুন লাইনে শুরু। তাদের উপরে এবং নীচের মার্জিন থাকে। এটির পাশে অন্য কোন element থাকে না। Inline Element শুধুমাত্র তার যতটুকু জাইগা দরকার তটুকু দখল করে যা এটির জন্য যথেষ্ট এবং এটির পাশে থাকা অন্যান্য element গুলো দের থাকতে দেয় যা ইনলাইন রয়েছে৷ ইনলাইন উপাদানগুলি একটি নতুন লাইন থেকে শুরু হয় না এবং ব্লক উপাদানগুলির মতো শীর্ষ এবং নীচের মার্জিন থাকে না। Inline-block Element inline element গুলির অনুরূপ, শুধু তাদের চারটি দিকে প্যাডিং এবং মার্জিন থাকে।
+    `,
     publisher: "MD.ZIHAD",
-    img: "https://www.loginradius.com/blog/static/157af7ff069ab273224b4718433d9790/03979/title-image.png",
+    img: "https://i.ytimg.com/vi/hgoFi0fCv3w/maxresdefault.jpg",
   },
 ];
 const Blogs = () => {
