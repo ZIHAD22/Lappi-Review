@@ -4,6 +4,8 @@
 
 [](https://lappi-review.netlify.app/)
 
+Live site
+
 ### To Build This Site Technology Requirements
 
 - JavaScript
